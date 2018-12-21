@@ -39,4 +39,8 @@ public class Category {
     public int getId() {
         return id;
     }
+
+    public List<Cheese> getCheeses() {
+        return cheeses;
+    }
 }
